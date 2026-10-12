@@ -20,7 +20,7 @@
 ## 🛠️ Tech Stack
 
 * **Frontend:** HTML5, Tailwind CSS, Three.js (interactive pollen/spore background particles), Marked.js, Leaflet.js.
-* **Backend Bridge:** Python, Flask, Flask-CORS.
+* **Backend Bridge:** Python, Flask, Flask-CORN.
 * **Local AI & Database Engines:** 
   * Ollama (`gemma2:2b`)
   * OpenAI Whisper (`base`)
@@ -33,15 +33,11 @@
 
 Ensure you have **Ollama** installed and running on your machine with the Gemma 2 model downloaded before launching.
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/ritamgit-alt/myconode.git](https://github.com/ritamgit-alt/myconode.git)
-   cd myconode
-   
-**Install dependencies:**
 ```bash
+git clone [https://github.com/ritamgit-alt/myconode.git](https://github.com/ritamgit-alt/myconode.git)
+cd myconode
 pip install flask flask-cors openai-whisper chromadb
-
-**Ensure Ollama model is ready:**
-```bash
 ollama pull gemma2:2b
+python3 server.py
+
+**Open your browser and navigate to: http://127.0.0.1:5000**
