@@ -1,0 +1,4 @@
+myconode_memory/
+myconode.db
+__pycache__/
+*.pyc
