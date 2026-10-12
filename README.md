@@ -37,3 +37,11 @@ Ensure you have **Ollama** installed and running on your machine with the Gemma 
    ```bash
    git clone [https://github.com/ritamgit-alt/myconode.git](https://github.com/ritamgit-alt/myconode.git)
    cd myconode
+   
+**Install dependencies:**
+```bash
+pip install flask flask-cors openai-whisper chromadb
+
+**Ensure Ollama model is ready:**
+```bash
+ollama pull gemma2:2b
